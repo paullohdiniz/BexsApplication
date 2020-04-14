@@ -1,0 +1,46 @@
+GRU,BRC,10
+BRC,SCL,5
+GRU,CDG,75
+GRU,SCL,20
+GRU,ORL,56
+ORL,CDG,5
+SCL,ORL,20
+
+[
+{
+    "origin": "GRU",
+    "destine": "BRC",
+    "cost": 10
+},
+{
+    "origin": "BRC",
+    "destine": "SCL",
+    "cost": 5
+},
+{
+    "origin": "GRU",
+    "destine": "CDG",
+    "cost": 75
+},
+{
+    "origin": "GRU",
+    "destine": "SCL",
+    "cost": 20
+},
+{
+    "origin": "GRU",
+    "destine": "ORL",
+    "cost": 56
+},
+{
+    "origin": "ORL",
+    "destine": "CDG",
+    "cost": 5
+},
+{
+    "origin": "SCL",
+    "destine": "ORL",
+    "cost": 20
+}
+]
+
