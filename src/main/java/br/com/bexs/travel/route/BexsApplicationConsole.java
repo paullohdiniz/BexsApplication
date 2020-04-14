@@ -16,17 +16,17 @@ public class BexsApplicationConsole {
 		
 	    while(true){
 			Scanner s = new Scanner(System.in);
-		    if (args.length == 0) {
-				System.out.println("Plese, enter the file name!");
-				break;
-			}
+//		    if (args.length == 0) {
+//				System.out.println("Plese, enter the file name!");
+//				break;
+//			}
 		    try {
 
 				Path currentDir = Paths.get("");
 
 				//arquivoCSV = new File("/home/paulodiniz/IdeaProjects/bexs/src/main/java/br/com/bexs/travel/route/" + args[0]);
 
-				arquivoCSV = new File(currentDir.toAbsolutePath() + "/input-routes.csv");
+				arquivoCSV = new File(currentDir.toAbsolutePath() + "/" + args[0]);
 
 		    	Scanner leitor = new Scanner(arquivoCSV);
 		    	String linhasDoArquivo = new String();
